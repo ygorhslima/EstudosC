@@ -12,5 +12,6 @@ int main(){
     }else{
         printf("eleitor obrigatório");
     }
+    
     return 0;
 }
