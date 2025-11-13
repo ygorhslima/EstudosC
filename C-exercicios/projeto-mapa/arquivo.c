@@ -1,16 +1,7 @@
-#include <stdio.h>
+#include <stdio.h>   // para printf, scanf, fgets
+#include <string.h>  // para strcspn e funções de string
 
-/**
- * Etapa 1: Planejamento e Estrutura do Código - Antes de começar a codificar, planeje a estrutura do seu programa.
-
-
-*/
-
-/*
-Declare as constantes e variáveis: Use #define para definir uma constante para o tamanho do acervo (TAMANHO_ACERVO 20). Na função main, declare um vetor dessa struct (struct Livro acervo[TAMANHO_ACERVO]) e outras variáveis auxiliares.
-*/
-
-#define TAMANHO_ACERVO 20
+#define TAMANHO_ACERVO 2
 
 // definfindo uma struct
 struct Livro{
@@ -22,34 +13,24 @@ struct Livro{
     char editora[30];
 };
 
-void cadastrarLivros(struct Livro acervo[], int tamanho){
 
-}
-
-void imprimirLivros(struct Livro acervo[], int tamanho){
-
-}
-
-void pesquisarLivros(struct Livro acervo[], int tamanho, int codigoBusca){
-
-}
-
-void ordenarLivros(struct Livro acervo[], int tamanho){
-
-}
-
-
+ // protótipo de funções
+void cadastrarLivros(struct Livro acervo[], int tamanho);
+void imprimirLivros(struct Livro acervo[], int tamanho);
+void pesquisarLivros(struct Livro acervo[], int tamanho, int codigoBusca);
+void ordenarLivros(struct Livro acervo[], int tamanho);
 
 int main()
 {
     // array acervo usado para guardar os livros dentro de uma array
     struct Livro acervo[TAMANHO_ACERVO];
-
     // variável responsável por guardar a escolha do usuário no menu
     int opcao;
     // o código do livro para buscar na função de pesquisarLivros
     int codigoBusca;
-
+    // o ano do livro que será usado para filtrar livros do mesmo ano
+    int anoLivro;
+    
     do
     {
         printf("\n------------ GERENCIADOR DE LIVROS ------------\n");
@@ -63,18 +44,18 @@ int main()
         scanf("%d",&opcao);
         
         switch (opcao){
-            case 1:
+            case 1: /*cadastrar livro*/
                 cadastrarLivros(acervo, TAMANHO_ACERVO);
                 break;
-            case 2:
+            case 2: /*imprimir Livro*/
                 imprimirLivros(acervo, TAMANHO_ACERVO);
                 break;
-            case 3:
+            case 3: /* pesquisar Livro */
                 printf("qual é o código do livro que você quer buscar?: ");
                 scanf("%d",&codigoBusca);
                 pesquisarLivros(acervo, TAMANHO_ACERVO, codigoBusca);
                 break;
-            case 4:
+            case 4: /** ordernar Livro */
                 ordenarLivros(acervo, TAMANHO_ACERVO);
                 break;
             case 5:
@@ -90,4 +71,50 @@ int main()
 
 
     return 0;
+}
+
+
+void cadastrarLivros(struct Livro acervo[], int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+
+        printf("\n--- Cadastro do livro %d ---\n", i + 1);
+
+        printf("Código: ");
+        scanf("%d", &acervo[i].codigo);
+        getchar(); // limpa o '\n' que sobra no buffer do scanf
+
+        printf("Título: ");
+        fgets(acervo[i].titulo, sizeof(acervo[i].titulo), stdin);
+        acervo[i].titulo[strcspn(acervo[i].titulo, "\n")] = '\0'; // remove '\n'
+
+        printf("Autor: ");
+        fgets(acervo[i].autor, sizeof(acervo[i].autor), stdin); // endereço da array, quantos caracteres ele vai ler, entrada padrão do teclado
+        acervo[i].autor[strcspn(acervo[i].autor, "\n")] = '\0'; // strcspn encontra a posição do \n e substitui por \0, limpando o final da string.
+
+        printf("Ano: ");
+        scanf("%d", &acervo[i].ano);
+        getchar();
+
+        printf("Área: ");
+        fgets(acervo[i].area, sizeof(acervo[i].area), stdin);
+        acervo[i].area[strcspn(acervo[i].area, "\n")] = '\0';
+
+        printf("Editora: ");
+        fgets(acervo[i].editora, sizeof(acervo[i].editora), stdin);
+        acervo[i].editora[strcspn(acervo[i].editora, "\n")] = '\0';
+    }
+}
+
+
+
+void imprimirLivros(struct Livro acervo[], int tamanho){
+    printf("ordenando");
+}
+
+void pesquisarLivros(struct Livro acervo[], int tamanho, int codigoBusca){
+    printf("ordenando");
+}
+
+void ordenarLivros(struct Livro acervo[], int tamanho){
+    printf("ordenando");
 }
