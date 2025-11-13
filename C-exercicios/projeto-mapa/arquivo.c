@@ -1,8 +1,6 @@
 #include <stdio.h>   // para printf, scanf, fgets
 #include <string.h>  // para strcspn e funções de string
-
-#define TAMANHO_ACERVO 2
-
+#define TAMANHO_ACERVO 3
 // definfindo uma struct
 struct Livro{
     int codigo;
@@ -13,8 +11,6 @@ struct Livro{
     char editora[30];
 };
 
-
- // protótipo de funções
 void cadastrarLivros(struct Livro acervo[], int tamanho);
 void imprimirLivros(struct Livro acervo[], int tamanho);
 void pesquisarLivros(struct Livro acervo[], int tamanho, int codigoBusca);
@@ -29,8 +25,7 @@ int main()
     // o código do livro para buscar na função de pesquisarLivros
     int codigoBusca;
     // o ano do livro que será usado para filtrar livros do mesmo ano
-    int anoLivro;
-    
+    int anoLivro;    
     do
     {
         printf("\n------------ GERENCIADOR DE LIVROS ------------\n");
@@ -68,8 +63,6 @@ int main()
                 break;
         }
     }while(opcao != 5);
-
-
     return 0;
 }
 
@@ -105,16 +98,59 @@ void cadastrarLivros(struct Livro acervo[], int tamanho) {
     }
 }
 
-
-
-void imprimirLivros(struct Livro acervo[], int tamanho){
-    printf("ordenando");
+void imprimirLivros(struct Livro acervo[], int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        printf("\n------------- LIVRO %d -------------\n", i + 1);
+        printf("Código: %d\n", acervo[i].codigo);
+        printf("Título: %s\n", acervo[i].titulo);
+        printf("Autor: %s\n", acervo[i].autor);
+        printf("Ano: %d\n", acervo[i].ano);
+        printf("Área: %s\n", acervo[i].area);
+        printf("Editora: %s\n", acervo[i].editora);
+        printf("-----------------------------------\n");
+    }
 }
 
 void pesquisarLivros(struct Livro acervo[], int tamanho, int codigoBusca){
-    printf("ordenando");
+    int i=0;
+    // flag
+    int encontrado = 0;
+
+    while(i < tamanho){
+        if(codigoBusca == acervo[i].codigo){
+            printf("\n------------- LIVRO %d -------------\n", i + 1);
+            printf("Código: %d\n", acervo[i].codigo);
+            printf("Título: %s\n", acervo[i].titulo);
+            printf("Autor: %s\n", acervo[i].autor);
+            printf("Ano: %d\n", acervo[i].ano);
+            printf("Área: %s\n", acervo[i].area);
+            printf("Editora: %s\n", acervo[i].editora);
+            printf("-----------------------------------\n");
+            encontrado = 1; 
+            break;            
+        }
+        i++;
+    }
+    if(!encontrado){
+        printf("\nCódigo do livro não encontrado\n");
+    }
 }
 
-void ordenarLivros(struct Livro acervo[], int tamanho){
-    printf("ordenando");
+void ordenarLivros(struct Livro acervo[], int tamanho) {
+    struct Livro temp; // variável temporária para fazer trocas
+
+    // Laço externo percorre todo o array
+    for (int i = 0; i < tamanho - 1; i++) {
+        // Laço interno percorre os elementos ainda não ordenados
+        for (int j = 0; j < tamanho - i - 1; j++) {
+            // Compara o ano de publicação de livros adjacentes
+            if (acervo[j].ano > acervo[j + 1].ano) {
+                // Troca de posição dos livros usando a variável temporária
+                temp = acervo[j];
+                acervo[j] = acervo[j + 1];
+                acervo[j + 1] = temp;
+            }
+        }
+    }
+    printf("\nLivros ordenados por ano de publicação!\n");
 }
