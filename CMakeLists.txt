@@ -76,4 +76,5 @@ add_executable(EstudosC
         C-Aulas/estruturas_de_dados/lista-dinamica/lista_dinamica.c
         Exercicios/ex026.c
         Exercicios/ex027.c
-        Exercicios/ex028.c)
+        Exercicios/ex028.c
+        Exercicios/ex029.c)
