@@ -5,7 +5,7 @@ Ex:
 Digite um número: 9
 O antecessor de 9 é 8
 O sucessor de 9 é 107
-*/
+*/ 
 #include <stdio.h>
 #include <stdlib.h>
 
