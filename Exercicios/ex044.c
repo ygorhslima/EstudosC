@@ -9,9 +9,7 @@ Contagem: 3 5 7 9 Acabou!
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-    int valorInicial;
-    int valorFinal;
-    int incremento;
+    int valorInicial, valorFinal, incremento;
 
     printf("Digite o primeiro Valor: ");
     scanf("%d", &valorInicial);
@@ -22,9 +20,17 @@ int main(){
     printf("Digite o incremento: ");
     scanf("%d", &incremento);
 
-    printf("Contagem:"); 
-    for(int i = valorInicial; i < valorFinal; i = i + incremento){
-        printf("%d ", i);
+    if(valorInicial > valorFinal){
+        printf("Contagem:"); 
+        for(int i = valorInicial; i >= valorFinal; i = i - incremento){
+            printf("%d ", i);
+        }
+    }
+    else if (valorInicial < valorFinal){
+        printf("contagem:");
+        for(int i = valorInicial; i <= valorFinal; i = i + incremento){
+            printf("%d ", i);
+        }
     }
     printf("Acabou!\n");
     return 0;
