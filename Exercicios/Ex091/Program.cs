@@ -22,7 +22,7 @@ namespace Exercicio.Ex091
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             List<int> listaNumeros = new List<int>();
             char resposta = 'S';
