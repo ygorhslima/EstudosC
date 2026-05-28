@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/bin/Debug/net10.0/Ex097
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/bin/Debug/net10.0/Ex097.deps.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/bin/Debug/net10.0/Ex097.runtimeconfig.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/bin/Debug/net10.0/Ex097.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/bin/Debug/net10.0/Ex097.pdb
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.sourcelink.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/refint/Ex097.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.pdb
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/Ex097.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex097/obj/Debug/net10.0/ref/Ex097.dll
