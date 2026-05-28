@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/bin/Debug/net10.0/Ex098
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/bin/Debug/net10.0/Ex098.deps.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/bin/Debug/net10.0/Ex098.runtimeconfig.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/bin/Debug/net10.0/Ex098.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/bin/Debug/net10.0/Ex098.pdb
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.sourcelink.json
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/refint/Ex098.dll
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.pdb
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/Ex098.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/EstudosC/Exercicios/Ex098/obj/Debug/net10.0/ref/Ex098.dll
