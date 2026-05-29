@@ -2,7 +2,9 @@
 Crie um programa que crie uma matriz de dimensão 3x3 e preencha com valores lido pelo teclado.
 No final, mostre a matriz na tela, com formatação correta.
 */
-class Program
+
+namespace Exercicios.Ex097;
+public class Program
 {
     static void Lin()
     {
