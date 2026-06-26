@@ -1,6 +1,5 @@
 namespace Exercicios.Ex108;
 
-
 public class Moeda
 {
     public float Aumentar(float preco, float taxa)

@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.sourcelink.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/bin/Debug/net10.0/Ex014
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/bin/Debug/net10.0/Ex014.deps.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/bin/Debug/net10.0/Ex014.runtimeconfig.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/bin/Debug/net10.0/Ex014.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/bin/Debug/net10.0/Ex014.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/refint/Ex014.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/Ex014.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex014/obj/Debug/net10.0/ref/Ex014.dll

@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/bin/Debug/net10.0/Aula12
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/bin/Debug/net10.0/Aula12.deps.json
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/bin/Debug/net10.0/Aula12.runtimeconfig.json
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/bin/Debug/net10.0/Aula12.dll
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/bin/Debug/net10.0/Aula12.pdb
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.sourcelink.json
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.dll
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/refint/Aula12.dll
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.pdb
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/Aula12.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/Curso-Csharp/CursoPOO/Aula12/obj/Debug/net10.0/ref/Aula12.dll

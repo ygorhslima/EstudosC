@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/bin/Debug/net10.0/Ex05
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/bin/Debug/net10.0/Ex05.deps.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/bin/Debug/net10.0/Ex05.runtimeconfig.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/bin/Debug/net10.0/Ex05.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/bin/Debug/net10.0/Ex05.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.sourcelink.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/refint/Ex05.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/Ex05.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Operadores/Ex05/obj/Debug/net10.0/ref/Ex05.dll

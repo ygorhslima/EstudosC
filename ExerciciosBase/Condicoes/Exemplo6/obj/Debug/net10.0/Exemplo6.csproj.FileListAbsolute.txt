@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/bin/Debug/net10.0/Exemplo6
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/bin/Debug/net10.0/Exemplo6.deps.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/bin/Debug/net10.0/Exemplo6.runtimeconfig.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/bin/Debug/net10.0/Exemplo6.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/bin/Debug/net10.0/Exemplo6.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.sourcelink.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/refint/Exemplo6.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/Exemplo6.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/Condicoes/Exemplo6/obj/Debug/net10.0/ref/Exemplo6.dll

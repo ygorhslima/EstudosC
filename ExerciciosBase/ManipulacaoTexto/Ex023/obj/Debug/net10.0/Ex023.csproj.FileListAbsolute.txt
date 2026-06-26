@@ -1,0 +1,15 @@
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/bin/Debug/net10.0/Ex023
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/bin/Debug/net10.0/Ex023.deps.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/bin/Debug/net10.0/Ex023.runtimeconfig.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/bin/Debug/net10.0/Ex023.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/bin/Debug/net10.0/Ex023.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.AssemblyInfoInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.AssemblyInfo.cs
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.sourcelink.json
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/refint/Ex023.dll
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.pdb
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/Ex023.genruntimeconfig.cache
+/home/ygor/Documentos/Projetos/ExerciciosCsharp/ExerciciosBase/ManipulacaoTexto/Ex023/obj/Debug/net10.0/ref/Ex023.dll
