@@ -1,4 +1,4 @@
-﻿using Aula06;
+﻿namespace Aula06;
 
 ControleRemoto c = new();
 c.Ligar();

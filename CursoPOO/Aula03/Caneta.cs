@@ -1,6 +1,4 @@
-using System;
-
-namespace Aula03;
+namespace CursoPOO.Aula03;
 
 public class Caneta
 {

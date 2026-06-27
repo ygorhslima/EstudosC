@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
 Caneta c1 = new Caneta();
 c1.Modelo = "Bic Cristal";

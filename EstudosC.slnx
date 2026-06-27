@@ -1,0 +1,48 @@
+<Solution>
+  <Folder Name="/CursoPOO/">
+    <Project Path="CursoPOO/Aula01/Aula01.csproj" />
+    <Project Path="CursoPOO/Aula02/Aula02.csproj" />
+    <Project Path="CursoPOO/Aula03/Aula03.csproj" />
+    <Project Path="CursoPOO/Aula04/Aula04.csproj" />
+    <Project Path="CursoPOO/Aula06/Aula06.csproj" />
+    <Project Path="CursoPOO/Aula07_08/Aula07_08.csproj" />
+    <Project Path="CursoPOO/Aula09/Aula09.csproj" />
+    <Project Path="CursoPOO/Aula12/Aula12.csproj" />
+  </Folder>
+  <Folder Name="/Exercicios/">
+    <Project Path="Exercicios/Ex032/Ex032.csproj" />
+    <Project Path="Exercicios/Ex057/Ex057.csproj" />
+    <Project Path="Exercicios/Ex060/Ex060.csproj" />
+    <Project Path="Exercicios/Ex062/Ex062.csproj" />
+    <Project Path="Exercicios/Ex067/Ex067.csproj" />
+    <Project Path="Exercicios/Ex081/Ex081.csproj" />
+    <Project Path="Exercicios/Ex082/Ex082.csproj" />
+    <Project Path="Exercicios/Ex084/Ex084.csproj" />
+    <Project Path="Exercicios/Ex085/Ex085.csproj" />
+    <Project Path="Exercicios/Ex087/Ex087.csproj" />
+    <Project Path="Exercicios/Ex088/Ex088.csproj" />
+    <Project Path="Exercicios/Ex089/Ex089.csproj" />
+    <Project Path="Exercicios/Ex090/Ex090.csproj" />
+    <Project Path="Exercicios/Ex091/Ex091.csproj" />
+    <Project Path="Exercicios/Ex092/Ex092.csproj" />
+    <Project Path="Exercicios/Ex093/Ex093.csproj" />
+    <Project Path="Exercicios/Ex094/Ex094.csproj" />
+    <Project Path="Exercicios/Ex095/Ex095.csproj" />
+    <Project Path="Exercicios/Ex096/Ex096.csproj" />
+    <Project Path="Exercicios/Ex097/Ex097.csproj" />
+    <Project Path="Exercicios/Ex098/Ex098.csproj" />
+    <Project Path="Exercicios/Ex099/Ex099.csproj" />
+    <Project Path="Exercicios/Ex100/Ex100.csproj" />
+    <Project Path="Exercicios/Ex101/Ex101.csproj" />
+    <Project Path="Exercicios/Ex102/Ex102.csproj" />
+    <Project Path="Exercicios/Ex103/Ex103.csproj" />
+    <Project Path="Exercicios/Ex104/Ex104.csproj" />
+    <Project Path="Exercicios/Ex105/Ex105.csproj" />
+    <Project Path="Exercicios/Ex106/Ex106.csproj" />
+    <Project Path="Exercicios/Ex107/Ex107.csproj" />
+    <Project Path="Exercicios/Ex108/Ex108.csproj" />
+  </Folder>
+  <Folder Name="/Exercicios/Ex031/">
+    <Project Path="Exercicios/Ex031/Ex031/Ex031.csproj" />
+  </Folder>
+</Solution>
