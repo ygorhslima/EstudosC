@@ -1,4 +1,6 @@
-﻿public class Program
+﻿using Exercicios.Ex108;
+
+public class Program
 {
     public static void Main(string[] args)
     {

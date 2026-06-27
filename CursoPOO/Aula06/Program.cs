@@ -1,6 +1,6 @@
-﻿namespace Aula06;
+﻿using Aula06;
 
-ControleRemoto c = new();
+var c = new ControleRemoto();
 c.Ligar();
 c.AbrirMenu();
 c.MaisVolume();

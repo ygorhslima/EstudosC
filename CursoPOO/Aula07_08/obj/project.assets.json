@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula07_08/Aula07_08.csproj",
+      "projectUniqueName": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula07_08/Aula07_08.csproj",
       "projectName": "Aula07_08",
-      "projectPath": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula07_08/Aula07_08.csproj",
+      "projectPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula07_08/Aula07_08.csproj",
       "packagesPath": "/home/ygor/.nuget/packages/",
-      "outputPath": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula07_08/obj/",
+      "outputPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula07_08/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ygor/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula02/Aula02.csproj": {}
+    "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula02/Aula02.csproj": {}
   },
   "projects": {
-    "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula02/Aula02.csproj": {
+    "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula02/Aula02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula02/Aula02.csproj",
+        "projectUniqueName": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula02/Aula02.csproj",
         "projectName": "Aula02",
-        "projectPath": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula02/Aula02.csproj",
+        "projectPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula02/Aula02.csproj",
         "packagesPath": "/home/ygor/.nuget/packages/",
-        "outputPath": "/home/ygor/Documentos/Projetos/ExerciciosCsharp/CursoPOO/Aula02/obj/",
+        "outputPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ygor/.nuget/NuGet/NuGet.Config"

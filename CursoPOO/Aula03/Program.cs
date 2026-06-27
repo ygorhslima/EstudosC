@@ -1,4 +1,4 @@
-﻿namespace CursoPOO.Aula03;
+﻿using CursoPOO.Aula03;
 
 Caneta c1 = new Caneta();
 c1.Modelo = "Bic Cristal";
