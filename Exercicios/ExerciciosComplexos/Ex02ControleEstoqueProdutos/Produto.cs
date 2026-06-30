@@ -31,4 +31,6 @@ public class Produto
             }
         }
     }
+
+    public string Categoria {get;set;} = "";
 }

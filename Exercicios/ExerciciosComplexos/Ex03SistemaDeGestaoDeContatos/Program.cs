@@ -24,6 +24,6 @@
             Console.Write("Quer continuar? [S/N]: ");
             resposta = Console.ReadLine() ?? "";
         }
-
+        
     }
 }
