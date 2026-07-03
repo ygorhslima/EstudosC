@@ -1,13 +1,17 @@
-﻿public class Program
+﻿using Ex04RegistroAluno.Aluno;
+
+public class Program
 {
     public static void Main(string[] args)
     {
-        var ListaContatos = new List<Contato>();
-        var funcoesMenuGestaoContato = new FuncoesMenuGestaoContato();
+        var listaAlunos = new List<Aluno>();
+        var funcoesMenuAlunos = new FuncoesMenuAlunos();
         int entrada = 999;
+
         while (entrada != 0)
         {
-            funcoesMenuGestaoContato.Menu();
+            funcoesMenuAlunos.Menu();
+            Console.Write("Digite sua opção: ");
             entrada = int.Parse(Console.ReadLine() ?? "");
             switch (entrada)
             {
@@ -16,14 +20,11 @@
                     Console.WriteLine("Saindo do programa");
                     Console.ResetColor();
                     break;
-                case 1: // adicionar um contato
-                    funcoesMenuGestaoContato.AdicionarDados(ListaContatos);
+                case 1: // adicionar aluno
+                    funcoesMenuAlunos.AdicionarDados(listaAlunos);
                     break;
-                case 2: // ver todos os contatos
-                    funcoesMenuGestaoContato.VerTodosOsContatos(ListaContatos);
-                    break;
-                case 3: // buscar contato pelo nome
-                    funcoesMenuGestaoContato.BuscarContatoPeloNome(ListaContatos);
+                case 2:
+                    funcoesMenuAlunos.VisualizarDados(listaAlunos);
                     break;
                 default:
                     Console.WriteLine("Escolha somente as opções acima");
