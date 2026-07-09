@@ -21,10 +21,19 @@ public class Program
                     Console.ResetColor();
                     break;
                 case 1: // adicionar aluno
-                    funcoesMenuAlunos.AdicionarDados(listaAlunos);
+                    funcoesMenuAlunos.AdicionarAlunos(listaAlunos);
                     break;
-                case 2:
-                    funcoesMenuAlunos.VisualizarDados(listaAlunos);
+                case 2: // Visualizar todos os alunos
+                    funcoesMenuAlunos.BuscarTodosAlunos(listaAlunos);
+                    break;
+                case 3: // buscar um aluno pelo número da matrícula
+                    funcoesMenuAlunos.BuscarAluno(listaAlunos);
+                    break;
+                case 4: //Editar dados de um aluno
+                    funcoesMenuAlunos.EditarAluno(listaAlunos);
+                    break;
+                case 5: // Remover um aluno do banco
+                    funcoesMenuAlunos.RemoverAluno(listaAlunos);
                     break;
                 default:
                     Console.WriteLine("Escolha somente as opções acima");

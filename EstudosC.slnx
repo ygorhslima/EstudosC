@@ -45,7 +45,7 @@
     <Project Path="Exercicios/ExerciciosComplexos/Ex02ControleEstoqueProdutos/Ex02ControleEstoqueProdutos.csproj" />
     <Project Path="Exercicios/ExerciciosComplexos/Ex03SistemaDeGestaoDeContatos/Ex03SistemaDeGestaoDeContatos.csproj" />
     <Project Path="Exercicios/ExerciciosComplexos/Ex04RegistroAlunos/Ex04RegistroAlunos.csproj" />
-    
+    <Project Path="Exercicios/ExerciciosComplexos/Ex05GestaoFuncionarios/Ex05GestaoFuncionarios.csproj" />
   </Folder>
   <Folder Name="/Exercicios/Ex031/">
     <Project Path="Exercicios/Ex031/Ex031/Ex031.csproj" />
