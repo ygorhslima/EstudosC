@@ -1,0 +1,15 @@
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/bin/Debug/net10.0/Ex04RegistroAlunos
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/bin/Debug/net10.0/Ex04RegistroAlunos.deps.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/bin/Debug/net10.0/Ex04RegistroAlunos.runtimeconfig.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/bin/Debug/net10.0/Ex04RegistroAlunos.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/bin/Debug/net10.0/Ex04RegistroAlunos.pdb
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.AssemblyInfoInputs.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.AssemblyInfo.cs
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.sourcelink.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/refint/Ex04RegistroAlunos.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.pdb
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/Ex04RegistroAlunos.genruntimeconfig.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex04RegistroAlunos/obj/Debug/net10.0/ref/Ex04RegistroAlunos.dll

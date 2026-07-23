@@ -1,0 +1,15 @@
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/bin/Debug/net10.0/Ex01CadastroUsuario
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/bin/Debug/net10.0/Ex01CadastroUsuario.deps.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/bin/Debug/net10.0/Ex01CadastroUsuario.runtimeconfig.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/bin/Debug/net10.0/Ex01CadastroUsuario.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/bin/Debug/net10.0/Ex01CadastroUsuario.pdb
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.GeneratedMSBuildEditorConfig.editorconfig
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.AssemblyInfoInputs.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.AssemblyInfo.cs
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.csproj.CoreCompileInputs.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.sourcelink.json
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/refint/Ex01CadastroUsuario.dll
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.pdb
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/Ex01CadastroUsuario.genruntimeconfig.cache
+/home/ygor/Documentos/GitHub/EstudosC/ExerciciosComplexos/Ex01CadastroUsuario/obj/Debug/net10.0/ref/Ex01CadastroUsuario.dll
