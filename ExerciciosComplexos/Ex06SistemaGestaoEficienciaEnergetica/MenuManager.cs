@@ -61,7 +61,6 @@ public class MenuManager(List<Dispositivo> listaDispositivo)
     {
         Console.Clear();
         Console.WriteLine("====================== LISTAR DISPOSITIVOS ======================");
-
         if (_listaDispositivo.Count == 0)
         {
             Console.WriteLine("\nERRO! A lista está sem dispositivos cadastrados.");
@@ -101,6 +100,64 @@ public class MenuManager(List<Dispositivo> listaDispositivo)
         Console.WriteLine("Pressione qualquer tecla para voltar ao menu...");
         Console.ReadKey();
     }
-    private void ExecutarAcaoEspecifica() {}
+
+    private void ExecutarAcaoEspecifica()
+    {
+        Console.WriteLine("-=-=-=-=-=-=-=-=-=- SELECIONE UM DISPOSITIVO -=-=-=-=-=-=-=-=-=-");
+        Console.WriteLine("1. Alterar Cor da Temperatura de uma Lâmpada Inteligente");
+        Console.WriteLine("2. Alterar o Modo ECO do Ar-Condicionado");
+        Console.WriteLine("3. Exibir quanto falta de carga no Carro Elétrico");
+        Console.Write("Escolha uma das opções acima: ");
+        string item = Console.ReadLine() ?? "";
+        switch (item)
+        {
+          case "1":
+              Console.Clear();
+              Console.WriteLine("ID da Lâmpada: ");
+              string idLamp = Console.ReadLine() ?? "";
+              var dispositivoEncontrado = _listaDispositivo.FirstOrDefault(item => item.Id == idLamp);
+              if (dispositivoEncontrado is LampadaInteligente lampadaAlvo)
+              {
+                  Console.WriteLine($"Lâmpada encontrada: {lampadaAlvo.Nome} digite uma nova temperatura da cor (K): ");
+                  if (int.TryParse(Console.ReadLine(), out int novaTempCor))
+                  {
+                      lampadaAlvo.TemperaturaCor = novaTempCor;
+                      Console.WriteLine("\nTemperatura da cor alterada com sucesso!");
+                  }
+              }
+              break;
+          case "2":
+              Console.Clear();
+              Console.WriteLine("ID do Ar-Condicionado: ");
+              string idArCond = Console.ReadLine() ?? "";
+              var dispositivoEncontrado2 = _listaDispositivo.FirstOrDefault(item => item.Id == idArCond);
+              if (dispositivoEncontrado2 is ArCondicionado ar)
+              {
+                    ar.ModoECO = true;
+                    Console.WriteLine($"\nModo ECO alterado com sucesso! Novo estado: {(ar.ModoECO ? "Ativado" : "Desativado")}");
+              }
+              break;
+          case "3":
+              Console.Clear();
+              Console.Write("Digite o ID do Carro Elétrico: ");
+              string idCar = Console.ReadLine() ?? "";
+
+              if (_listaDispositivo.FirstOrDefault(d => d.Id == idCar) is CarroEletrico carroAlvo)
+              {
+                  Console.WriteLine($"\n--- STATUS DE CARGA ---");
+                  Console.WriteLine($"Veículo: {carroAlvo.Nome}");
+                  Console.WriteLine($"Bateria Total: {carroAlvo.CapacidadeBateria} kWh");
+                  Console.WriteLine($"Carga Atual: {carroAlvo.PercentualCarga}%");
+              }
+              else
+              {
+                  Console.WriteLine("\nNenhum Carro Elétrico encontrado com esse ID.");
+              }
+
+              Console.WriteLine("\nPressione qualquer tecla para continuar...");
+              Console.ReadKey();
+              break;
+        }
+    }
 
 }

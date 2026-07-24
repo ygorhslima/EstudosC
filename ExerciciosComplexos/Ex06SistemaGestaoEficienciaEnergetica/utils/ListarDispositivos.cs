@@ -13,7 +13,7 @@ public class ListarDispositivos
         }
         foreach (var arCondicionado in listAr)
         {
-            Console.WriteLine($"ID: {arCondicionado.Id} \n Nome: {arCondicionado.Nome} \n BTU: {arCondicionado.CapacidadeBTU} \n ECO: {arCondicionado.MocoECO} \n Ligado: {arCondicionado.EstaLigado}");
+            Console.WriteLine($"ID: {arCondicionado.Id} \n Nome: {arCondicionado.Nome} \n BTU: {arCondicionado.CapacidadeBTU} \n ECO: {arCondicionado.ModoECO} \n Ligado: {arCondicionado.EstaLigado}");
         }
     }
     public void ListarLampadas(List<LampadaInteligente> listLamp)

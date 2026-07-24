@@ -1,3 +1,5 @@
+using Ex06SistemaGestaoEficienciaEnergica.Interfaces;
+
 namespace Ex06SistemaGestaoEficienciaEnergica.Classes;
 
 public class LampadaInteligente(
@@ -9,4 +11,5 @@ public class LampadaInteligente(
     ) : Dispositivo(id, nome, potenciaNominal, estaLigado)
 {
     public int TemperaturaCor { get; set; } = temperaturaCor;
+    
 }
