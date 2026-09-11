@@ -32,7 +32,6 @@
         Caracteres a mais à direita: {limpo.PadRight(25, '*')}
         """);
 
-
         Console.WriteLine("\n=== DIVISÃO E JUNÇÃO ===");
         string linguagensCsv = "C#,Java,Python,TypeScript";
         string[] arrayLinguagens = linguagensCsv.Split(',');
@@ -40,7 +39,6 @@
 
         string textoJuntado = string.Join(" | ", arrayLinguagens);
         Console.WriteLine($"string.Join: {textoJuntado}");
-
 
         // 4. Comparação
         Console.WriteLine("\n=== COMPARAÇÃO ===");

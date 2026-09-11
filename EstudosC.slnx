@@ -1,4 +1,14 @@
 <Solution>
+  <Folder Name="/CursoCsharp">
+    <Project Path="CursoCsharp/Arrays/Arrays.csproj"/>
+    <Project Path="CursoCsharp/ColecaoDictionary/ColecaoDictionary.csproj"/>
+    <Project Path="CursoCsharp/ColecaoLinkedList/ColecaoLinkedList.csproj"/>
+    <Project Path="CursoCsharp/ColecaoList/ColecaoList.csproj"/>
+    <Project Path="CursoCsharp/OperacoesComNumeros/OperacoesComNumeros.csproj"/>
+    <Project Path="CursoCsharp/OperacoesComStrings/OperacoesComStrings.csproj"/>
+    <Project Path="CursoCsharp/Operadores/Operadores.csproj"/>
+    <Project Path="CursoCsharp/Variaveis/Variaveis.csproj"/>
+  </Folder>
   <Folder Name="/CursoPOO/">
     <Project Path="CursoPOO/Aula01/Aula01.csproj" />
     <Project Path="CursoPOO/Aula02/Aula02.csproj" />
