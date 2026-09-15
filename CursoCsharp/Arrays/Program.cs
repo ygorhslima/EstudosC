@@ -1,49 +1,114 @@
 ﻿class Program
 {
+    static void FuncaoLinha(string tipoLinha, int quantidade)
+    {
+        Console.WriteLine(string.Concat(Enumerable.Repeat(tipoLinha,quantidade)));
+    }
     static void Main()
     {
-        // 1. CRIAÇÃO E INICIALIZAÇÃO
-        // definindo tamanho fixo
-        //int[] numeros = new int[6];
-        // syntax sugar
-        int[] numeros = [5, 2, 8, 1, 9, 3, 2];
+        int[] vetor1 = new int[5];
+        int[] vetor2 = new int[5];
+        int[] vetor3 = new int[5];
+        int[,] matriz = new int[2,5]
+        {
+            {11,22,00,44,55},
+            {66,77,88,99,00}
+        };
+        
+        // testando valores Preenchendo o vetor 1 com valores aleatórios
+        Random random = new Random();
+        for (int i = 0; i < vetor1.Length; i++)
+        {
+            vetor1[i] = random.Next(50);
+        }
+        
+        Console.WriteLine("Elementos do vetor1: ");
+        foreach (int n in vetor1)
+        {
+            Console.WriteLine(n);
+        }
+        
+        //BinarySearch: Retorna a posição do elemento que está sendo procurado
+        Console.WriteLine("BinarySearch");
+        int procurado = 33;
+        int posicao = Array.BinarySearch(vetor1, procurado);
+        Console.WriteLine($"Valor {procurado} está na posição {posicao}");
+        FuncaoLinha("-=",20);
+        
+        //Copy(Ar_origem, Ar_destino, quantidade_de_elementos)
+        Console.WriteLine("Copy");
+        Array.Copy(vetor1, vetor2, vetor1.Length);
+        foreach (var n in vetor2)
+        {
+            Console.WriteLine(n);
+        }
+        FuncaoLinha("-=", 20);
+        
+        //CopyTo(Ar_destino, a_partir_desta_posicao)
+        Console.WriteLine("CopyTo");
+        vetor1.CopyTo(vetor3, 0);
+        foreach (var n in vetor3)
+        {
+            Console.WriteLine(n);
+        }
+        FuncaoLinha("-=", 20);
+        
+        int[] numeros = { 45, 12, 89, 23, 12, 67, 34 };
 
-        // Propriedades fundamentais
-        int tamanho = numeros.Length; // Tamanho total
-        int dimensoes = numeros.Rank;  // Número de dimensões (1D, 2D, etc.)
+        // 1. Sort: Ordena os elementos em ordem crescente
+        Console.WriteLine("Array.Sort");
+        Array.Sort(numeros);
+        Console.WriteLine("Ordenado: " + string.Join(", ", numeros));
+        FuncaoLinha("-=", 20);
 
-        // 2. BUSCA E LOCALIZAÇÃO
-        int primeiroIndice = Array.IndexOf(numeros, 2);      // Retorna 1 (primeira ocorrência)
-        int ultimoIndice = Array.LastIndexOf(numeros, 2);    // Retorna 6 (última ocorrência)
-        int primeiroMaiorQue4 = Array.Find(numeros, x => x > 4); // Retorna 5 (busca por predicado)
-        int[] todosMaioresQue4 = Array.FindAll(numeros, x => x > 4); // Retorna [5, 8, 9]
-        bool existePar = Array.Exists(numeros, x => x % 2 == 0);     // Retorna true
-        bool todosPositivos = Array.TrueForAll(numeros, x => x > 0); // Retorna true
+        // 2. Reverse: Inverte a ordem atual dos elementos
+        Console.WriteLine("Array.Reverse");
+        Array.Reverse(numeros);
+        Console.WriteLine("Invertido: " + string.Join(", ", numeros));
+        FuncaoLinha("-=", 20);
 
-        // 3. ORDENAÇÃO E INVERSÃO
-        Array.Sort(numeros); // Ordena in-place via IntroSort (O(N log N)) -> [1, 2, 2, 3, 5, 8, 9]
+        // 3. IndexOf e LastIndexOf: Busca posições por valor exato
+        Console.WriteLine("IndexOf / LastIndexOf");
+        int primeiro12 = Array.IndexOf(numeros, 12);
+        int ultimo12 = Array.LastIndexOf(numeros, 12);
+        Console.WriteLine($"Primeira ocorrência do 12: índice {primeiro12}");
+        Console.WriteLine($"Última ocorrência do 12: índice {ultimo12}");
+        FuncaoLinha("-=", 20);
 
-        // Busca Binária (requer array previamente ordenado - O(log N))
-        int indiceBinary = Array.BinarySearch(numeros, 8); // Retorna o índice do elemento 8
+        // 4. Find e FindAll: Busca elementos via Expressão Lambda (Predicado)
+        Console.WriteLine("Find / FindAll");
+        int primeiroMaiorQue50 = Array.Find(numeros, n => n > 50);
+        int[] todosMaioresQue30 = Array.FindAll(numeros, n => n > 30);
+        Console.WriteLine($"Primeiro valor > 50: {primeiroMaiorQue50}");
+        Console.WriteLine($"Todos os valores > 30: " + string.Join(", ", todosMaioresQue30));
+        FuncaoLinha("-=", 20);
 
-        Array.Reverse(numeros); // Inverte a ordem in-place -> [9, 8, 5, 3, 2, 2, 1]
+        // 5. Exists e TrueForAll: Validações booleanas
+        Console.WriteLine("Exists / TrueForAll");
+        bool existePar = Array.Exists(numeros, n => n % 2 == 0);
+        bool todosPositivos = Array.TrueForAll(numeros, n => n > 0);
+        Console.WriteLine($"Existe algum número par? {existePar}");
+        Console.WriteLine($"Todos são maiores que zero? {todosPositivos}");
+        FuncaoLinha("-=", 20);
 
-        // 4. CÓPIA E CLONAGEM (Base para expansão de estruturas dinâmicas)
-        int[] destino = new int[numeros.Length];
-        Array.Copy(numeros, destino, numeros.Length); // Cópia de alta performance por bloco de memória
+        // 6. Fill: Preenche todo o array com um valor padrão
+        Console.WriteLine("Array.Fill");
+        int[] vetorPreenchido = new int[5];
+        Array.Fill(vetorPreenchido, 99);
+        Console.WriteLine("Vetor preenchido: " + string.Join(", ", vetorPreenchido));
+        FuncaoLinha("-=", 20);
 
-        int[] clone = (int[])numeros.Clone(); // Cria uma nova instância de array idêntica
+        // 7. Clear: Redefine valores de um intervalo para o padrão do tipo (0 para int)
+        Console.WriteLine("Array.Clear");
+        Array.Clear(numeros, 0, 3); // Zera 3 elementos a partir do índice 0
+        Console.WriteLine("Após zerar os 3 primeiros: " + string.Join(", ", numeros));
+        FuncaoLinha("-=", 20);
 
-        // 5. REDIMENSIONAMENTO (Base interna da List<T>)
-        // Cria um novo array com tamanho 10, copia os dados antigos e atualiza a referência
-        Array.Resize(ref numeros, 10);
-
-        // 6. LIMPEZA DE ELEMENTOS
-        // Reseta 3 elementos a partir do índice 0 para o valor padrão do tipo (0 para int, null para objetos)
-        Array.Clear(numeros, 0, 3);
-
-        // 7. INTEGRAÇÃO COM LINQ (Ponte para outras coleções)
-        var lista = numeros.ToList();                     // Converte Array -> List<T>
-        var filtrados = numeros.Where(n => n > 2).ToArray(); // Cria novo array filtrado
+        // 8. Resize: Altera a capacidade do array (cria uma nova instância internamente)
+        Console.WriteLine("Array.Resize");
+        Array.Resize(ref numeros, 10); // Redimensiona para tamanho 10
+        Console.WriteLine($"Novo tamanho: {numeros.Length}");
+        Console.WriteLine("Array expandido: " + string.Join(", ", numeros));
+        FuncaoLinha("-=", 20);
     }
 }
