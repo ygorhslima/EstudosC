@@ -6,6 +6,10 @@
     <Project Path="CursoCsharp/ColecaoList/ColecaoList.csproj" />
     <Project Path="CursoCsharp/Enum/Enum.csproj" />
     <Project Path="CursoCsharp/FormatacaoStrings/FormatacaoStrings.csproj" />
+    <Project Path="CursoCsharp/Metodos/Metodos.csproj" />
+    <Project Path="CursoCsharp/Metodos03ArgumentoOut/Metodos03ArgumentoOut.csproj" />
+    <Project Path="CursoCsharp/Metodos04ArgumentoParams/Metodos04ArgumentoParams.csproj" />
+    <Project Path="CursoCsharp/MetodosPassagemValorParametro02/MetodosPassagemValorParametro02.csproj" />
     <Project Path="CursoCsharp/OperacoesComNumeros/OperacoesComNumeros.csproj" />
     <Project Path="CursoCsharp/OperacoesComStrings/OperacoesComStrings.csproj" />
     <Project Path="CursoCsharp/Operadores/Operadores.csproj" />
