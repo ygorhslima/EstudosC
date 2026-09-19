@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/CursoCsharp/">
     <Project Path="CursoCsharp/Arrays/Arrays.csproj" />
+    <Project Path="CursoCsharp/Classe03SobrecargaDeConstrutores/Classe03SobrecargaDeConstrutores.csproj" />
+    <Project Path="CursoCsharp/Classes02Construtores/Classes02Construtores.csproj" />
+    <Project Path="CursoCsharp/ClassesEObjetos/ClassesEObjetos.csproj" />
     <Project Path="CursoCsharp/ColecaoDictionary/ColecaoDictionary.csproj" />
     <Project Path="CursoCsharp/ColecaoLinkedList/ColecaoLinkedList.csproj" />
     <Project Path="CursoCsharp/ColecaoList/ColecaoList.csproj" />
