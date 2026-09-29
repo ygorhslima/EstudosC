@@ -2,6 +2,7 @@
   <Folder Name="/CursoCsharp/">
     <Project Path="CursoCsharp/Arrays/Arrays.csproj" />
     <Project Path="CursoCsharp/Classe03SobrecargaDeConstrutores/Classe03SobrecargaDeConstrutores.csproj" />
+    <Project Path="CursoCsharp/Classe04Static/Classe04Static.csproj" />
     <Project Path="CursoCsharp/Classes02Construtores/Classes02Construtores.csproj" />
     <Project Path="CursoCsharp/ClassesEObjetos/ClassesEObjetos.csproj" />
     <Project Path="CursoCsharp/ColecaoDictionary/ColecaoDictionary.csproj" />
@@ -60,16 +61,5 @@
     <Project Path="Exercicios/Ex106/Ex106.csproj" />
     <Project Path="Exercicios/Ex107/Ex107.csproj" />
     <Project Path="Exercicios/Ex108/Ex108.csproj" />
-  </Folder>
-  <Folder Name="/Exercicios/Ex031/">
-    <Project Path="Exercicios/Ex031/Ex031/Ex031.csproj" />
-  </Folder>
-  <Folder Name="/ExerciciosComplexos/">
-    <Project Path="ExerciciosComplexos/Ex01CadastroUsuario/Ex01CadastroUsuario.csproj" />
-    <Project Path="ExerciciosComplexos/Ex02ControleEstoqueProdutos/Ex02ControleEstoqueProdutos.csproj" />
-    <Project Path="ExerciciosComplexos/Ex03SistemaDeGestaoDeContatos/Ex03SistemaDeGestaoDeContatos.csproj" />
-    <Project Path="ExerciciosComplexos/Ex04RegistroAlunos/Ex04RegistroAlunos.csproj" />
-    <Project Path="ExerciciosComplexos/Ex05GestaoFuncionarios/Ex05GestaoFuncionarios.csproj" />
-    <Project Path="ExerciciosComplexos/Ex06SistemaGestaoEficienciaEnergetica/Ex06SistemaGestaoEficienciaEnergetica.csproj" />
   </Folder>
 </Solution>
