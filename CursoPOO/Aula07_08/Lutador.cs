@@ -1,83 +1,98 @@
 using System;
-using System.Linq.Expressions;
 
 namespace Aula07_08;
 
-public class Lutador(
-    string nome,
-    string nacionalidade,
-    int idade,
-    float altura,
-    float peso,
-    int vitorias,
-    int derrotas,
-    int empates
-)
+public class Lutador
 {
-    public string Nome { get; set; } = nome;
-    public string Nacionalidade { get; set; } = nacionalidade;
-    public int Idade { get; set; } = idade;
-    public float Altura { get; set; } = altura;
-    public float Peso { get; set; } = peso;
+    public string Nome { get; set; }
+    public string Nacionalidade { get; set; }
+    public int Idade { get; set; }
+    public float Altura { get; set; }
+    public int Vitorias { get; set; }
+    public int Derrotas { get; set; }
+    public int Empates { get; set; }
+    private float peso;
 
-    protected string Categoria;
-
-    public string GetCategoria()
+    public float Peso 
     {
-        return this.Categoria;
+        get => peso;
+        set 
+        {
+            peso = value;
+            SetCategoria();
+        }
+    }
+    
+    public string? Categoria { get; private set; } = "";
+
+    public Lutador(string nome,
+                   string nacionalidade,
+                   int idade,
+                   float altura,
+                   float peso,
+                   int vitorias,
+                   int derrotas,
+                   int empates)
+    {
+        Nome = nome;
+        Nacionalidade = nacionalidade;
+        Idade = idade;
+        Altura = altura;
+        Peso = peso;
+        Vitorias = vitorias;
+        Derrotas = derrotas;
+        Empates = empates;
     }
 
-    public void SetCategoria(string Categoria)
+    private void SetCategoria()
     {
-        if (Peso <= 52.2f)
+        if (Peso < 52.2f)
         {
-            this.Categoria = "Inválido";
+            Categoria = "Abaixo do Peso, não pode participar do torneio";
         }
         else if (Peso <= 70.3f)
         {
-            this.Categoria = "Leve";
+            Categoria = "Leve";
         }
         else if (Peso <= 83.9f)
         {
-            this.Categoria = "Médio";
+            Categoria = "Médio";
         }
         else if (Peso <= 120.2f)
         {
-            this.Categoria = "Pesado";
+            Categoria = "Pesado";
         }
         else
         {
-            this.Categoria = "Inválido";
+            Categoria = "Inválido";
         }
-
     }
-
-
-    public int Vitorias { get; set; } = vitorias;
-    public int Derrotas { get; set; } = derrotas;
-    public int Empates { get; set; } = empates;
-
 
     public void Apresentar()
     {
-        Console.WriteLine($"CHEGOU A HORA! Apresentamos o lutador {Nome}");
-        Console.WriteLine($"Diretamente de {Nacionalidade}");
-        Console.WriteLine($"Com {Idade} anos");
-        Console.WriteLine($"pesando {Peso} Kg");
-        Console.WriteLine($"Vitórias: {Vitorias}");
-        Console.WriteLine($"Derrotas: {Derrotas}");
-        Console.WriteLine($"Empates: {Empates}");
+        Console.WriteLine($"""
+        Lutador: {Nome}
+        Origem: {Nacionalidade}
+        Idade: {Idade} anos
+        Altura: {Altura}m
+        Pesando: {Peso}kg
+        Ganhou: {Vitorias}
+        Perdeu: {Derrotas}
+        Empatou: {Empates}
+        """);
     }
 
     public void Status()
     {
-        Console.WriteLine($"{Nome} é um peso {GetCategoria()}");
-        Console.WriteLine($"Ganhou {Vitorias} vezes");
-        Console.WriteLine($"Perdeu {Derrotas} vezes ");
-        Console.WriteLine($"Empatou {Empates} vezes");
+        Console.WriteLine($"""
+        {Nome} é um peso {Categoria}
+        {Vitorias} vitórias
+        {Derrotas} derrotas
+        {Empates} empates
+        """);
     }
 
-    public void GanharLuta() { Vitorias += 1; }
-    public void PerderLuta() { Derrotas += 1; }
-    public void EmpatarLuta() { Empates += 1; }
+    public void GanharLuta() { Vitorias++; }
+    public void PerderLuta() { Derrotas++; }
+    public void EmpatarLuta() { Empates++; }
 }

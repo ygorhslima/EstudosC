@@ -24,9 +24,11 @@
     <Project Path="CursoPOO/Aula02/Aula02.csproj" />
     <Project Path="CursoPOO/Aula03/Aula03.csproj" />
     <Project Path="CursoPOO/Aula04/Aula04.csproj" />
+    <Project Path="CursoPOO/Aula05/Aula05.csproj" />
     <Project Path="CursoPOO/Aula06/Aula06.csproj" />
     <Project Path="CursoPOO/Aula07_08/Aula07_08.csproj" />
     <Project Path="CursoPOO/Aula09/Aula09.csproj" />
+    <Project Path="CursoPOO/Aula10/Aula10.csproj" />
     <Project Path="CursoPOO/Aula12/Aula12.csproj" />
   </Folder>
   <Folder Name="/Exercicios/">
