@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ygor/Documentos/GitHub/EstudosC/CursoPOO/Aula04/Aula04.csproj": {}
+    "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula04/Aula04.csproj": {}
   },
   "projects": {
-    "/home/ygor/Documentos/GitHub/EstudosC/CursoPOO/Aula04/Aula04.csproj": {
+    "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula04/Aula04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ygor/Documentos/GitHub/EstudosC/CursoPOO/Aula04/Aula04.csproj",
+        "projectUniqueName": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula04/Aula04.csproj",
         "projectName": "Aula04",
-        "projectPath": "/home/ygor/Documentos/GitHub/EstudosC/CursoPOO/Aula04/Aula04.csproj",
+        "projectPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula04/Aula04.csproj",
         "packagesPath": "/home/ygor/.nuget/packages/",
-        "outputPath": "/home/ygor/Documentos/GitHub/EstudosC/CursoPOO/Aula04/obj/",
+        "outputPath": "/home/ygor/Documentos/Projetos/EstudosC/CursoPOO/Aula04/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ygor/.nuget/NuGet/NuGet.Config"
@@ -20,11 +20,11 @@
           "net10.0"
         ],
         "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,11 +39,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.403/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.113/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
