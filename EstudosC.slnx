@@ -31,4 +31,7 @@
     <Project Path="CursoPOO/Aula10/Aula10.csproj" />
     <Project Path="CursoPOO/Aula12/Aula12.csproj" />
   </Folder>
+  <Folder Name="/ExerciciosCsharp/">
+    <Project Path="ExerciciosCsharp/Ex01CentralControleDrones/Ex01CentralControleDrones.csproj" />
+  </Folder>
 </Solution>
