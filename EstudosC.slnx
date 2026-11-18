@@ -33,5 +33,6 @@
   </Folder>
   <Folder Name="/ExerciciosCsharp/">
     <Project Path="ExerciciosCsharp/Ex01CentralControleDrones/Ex01CentralControleDrones.csproj" />
+    <Project Path="ExerciciosCsharp/Ex02EstacaoMonitoramentoClimatico/Ex02EstacaoMonitoramentoClimatico.csproj" />
   </Folder>
 </Solution>
